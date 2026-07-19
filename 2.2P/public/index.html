@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express Calculator</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>Express Calculator</h1>
+
+      <p>This webpage is being served by an Express server.</p>
+
+      <form id="calculator-form">
+        <label for="num1">First number</label>
+        <input id="num1" type="number" step="any" required />
+
+        <label for="num2">Second number</label>
+        <input id="num2" type="number" step="any" required />
+
+        <button type="submit">Add numbers</button>
+      </form>
+
+      <p id="result" aria-live="polite"></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
