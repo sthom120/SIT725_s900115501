@@ -20,7 +20,7 @@ const games = [
     difficulty: "Medium",
     description:
       "Collect and trade resources as you build roads, settlements and cities across the island of Catan.",
-    image: "images/catan.jpg"
+    image: "images/catan.png"
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ const games = [
     difficulty: "Medium",
     description:
       "Attract birds to your wildlife preserves and create powerful combinations across different habitats.",
-    image: "images/wingspan.jpg"
+    image: "images/wingspan.png"
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const games = [
     difficulty: "Light–Medium",
     description:
       "Collect ingredients and complete customer orders while the pressure builds in a busy competitive café.",
-    image: "images/coffee-rush.jpg"
+    image: "images/coffee-rush.png"
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ const games = [
     difficulty: "High",
     description:
       "Lead a woodland faction with its own rules, abilities and strategy as each group fights for control.",
-    image: "images/root.jpg"
+    image: "images/root.png"
   }
 ];
 
