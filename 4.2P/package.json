@@ -1,16 +1,18 @@
 {
-  "name": "3.2p",
+  "name": "4.2p",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Board Game Explorer with MongoDB database integration for SIT725 Task 4.2P",
+  "main": "server.js",
   "scripts": {
-  "start": "node server.js"
-},
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1"
   }
 }
