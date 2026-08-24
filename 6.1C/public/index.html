@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>Board Game Explorer</title>
+
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Our own CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="deep-purple lighten-1">
+        <div class="nav-wrapper container">
+          <a href="/" class="brand-logo">Board Game Explorer</a>
+
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#games">Games</a>
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/sthom120/SIT725_s900115501"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section center-align">
+        <div class="container">
+          <h1>Find Your Next Game</h1>
+
+          <p class="flow-text">
+            Explore a small selection of board games and discover your next
+            game-night favourite.
+          </p>
+        </div>
+      </section>
+
+      <section id="games" class="section">
+        <div class="container">
+          <h2 class="center-align">Explore Games</h2>
+
+          <div id="card-section" class="row">
+  <div class="col s12 center-align" id="loading-message">
+    <p>Loading games...</p>
+  </div>
+</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer deep-purple lighten-1">
+      <div class="footer-copyright">
+        <div class="container center-align">
+          © 2026 Board Game Explorer
+        </div>
+      </div>
+    </footer>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Our own JavaScript -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
