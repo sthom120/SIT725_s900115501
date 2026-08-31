@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Household Expense Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Household Expense Tracker</h1>
+
+        <form id="expenseForm">
+            <input
+                type="text"
+                id="name"
+                placeholder="Your name"
+                required
+            >
+
+            <input
+                type="text"
+                id="description"
+                placeholder="Expense description"
+                required
+            >
+
+            <input
+                type="number"
+                id="amount"
+                placeholder="Amount"
+                step="0.01"
+                required
+            >
+
+            <button type="submit">Add Expense</button>
+        </form>
+
+        <h2>Recent Expenses</h2>
+
+        <ul id="expenseList"></ul>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
